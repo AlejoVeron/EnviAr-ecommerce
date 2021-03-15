@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> EnviAr E-commerce </title>
+  <meta charset="utf-8">
+  <!-- BOOTSTRAP -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <!-- META'S -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <!-- GOOGLE FONTS -->
+  <link href="https://fonts.googleapis.com/css?family=Vesper+Libre&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Catamaran:100,300,400,700,900&display=swap" rel="stylesheet"> 
+</head>
+<!-- HEADER -->
+<header>
+    <h1>Envios internacionales desde Argentina</h1>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapse_target">
+        <a class="navbar-brand" href="index.html">enviAR</a>
+          <ul  class="navbar-nav mr-auto">
+            <li class="nav-item"><a class="nav-link" href="producto.html">Productos</a></li>
+            <li class="nav-item"><a class="nav-link" href="envios.html">Envios</a></li>
+            <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
+            <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li> 
+            <li class="nav-item"><a class="nav-link" href="preguntas.html">FAQs</a></li>
+          </ul> 
+          <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Buscar">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+          </form>
+      </div>  
+  </nav>
+</header>
+<body> 
+  <!--categorias-->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3 col-12">
+        <div class="aside"> 
+            <div class="categorias"> 
+              <ul class="list-group"><strong>Categorias</strong>
+                <li class="list-group-item catego item1"><a href="alfajores.html">Alfajores</a></li>
+                <li class="list-group-item catego item2"><a href="Galletitas.html">Galletitas y snacks
+                </a></li>
+                <li class="list-group-item catego item3"><a href="chocolates.html">Chocolates</a></li>
+                <li class="list-group-item catego item4"><a href="dulces.html">Dulce de leche</a></li>
+                <li class="list-group-item catego item5"><a href="yerba.hmtl">Yerba mate</a></li>
+                <li class="list-group-item catego item6"><a href="te.html">Té</a></li>
+              </ul> 
+            </div>
+        </div>  
+        <!-- MARCAS POPULARES  -->
+        <div class="aside2">  
+            <ul class="list-group"><strong>Marcas populares</strong>
+              <li class="list-group-item vende marca1"><a href="">Bagley</a></li>
+              <li class="list-group-item vende marca2"><a href="">Terrabusi</a></li>
+              <li class="list-group-item vende marca3"><a href="">Havanna</a></li>
+              <li class="list-group-item vende marca4"><a href="">Guaymallén</a></li>
+              <li class="list-group-item vende marca5"><a href="">Arcor</a></li>
+              <li class="list-group-item vende marca6"><a href="">Bonafide</a></li>
+              <li class="list-group-item vende marca7"><a href="">Cachafaz</a></li>
+            </ul>
+        </div>
+        <!-- RESPONSIVE -->
+        <div class="acordeon" id="accordionExample">
+          <div class="card">
+              <div class="card-header" id="headingOne">
+                  <h2 class="mb-0">
+                  <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                   Categorias
+                  </button>
+                  </h2>
+              </div>
+              <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                  <div class="card-body">
+                    <ul class="resp list-group">
+                  <li class="list-group-item"><a href="">Alfajores</a></li>
+                  <li class="list-group-item"><a href="">Galletitas y Snacks</a></li>
+                  <li class="list-group-item"><a href="">Chocolates</a></li>
+                  <li class="list-group-item"><a href="">Dulce de leche</a></li>
+                  <li class="list-group-item"><a href="">Yerba Mate</a></li>
+                </ul>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                  <h2 class="mb-0">
+                  <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Marcas más vendidas
+                  </button>
+                  </h2>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                  <div class="card-body">
+                    <ul class="resp list-group">
+                  <li class="list-group-item"><a href="">Taragui</a></li>
+                  <li class="list-group-item"><a href="">Terrabusi</a></li>
+                  <li class="list-group-item"><a href="">Cachafaz</a></li>
+                  <li class="list-group-item"><a href="">Guayma</a></li>
+                  <li class="list-group-item"><a href="">Havanna</a></li>
+                </ul>
+                </div>
+              </div>
+            </div>
+        </div>  
+      </div>
+      <div class="main row col-lg-9 col-12">
+      <!--PRODUCTOS DESTACADOS-->
+        
+        <div class="col-lg-12 col-12">
+          <h3>Productos destacados</h3>
+        </div>
+        <div class="destacados row">
+          <div class="col-lg-4 col-12">
+                <div class="card ml-1 mb-1">
+                   <img src="imagenes/jorgito260.jpg" class="card-img-top img-fluid" alt="jorgito">
+                   <div class="card-body">
+                      <h4 class="card-title"><strong>Alfajor Jorgito Chocolate 50g</strong></h4>
+                      <p class="card-text">$35</p>
+                      <p class="card-text"><small class="text-muted">Envío gratis.</small></p>
+                      <div class="btns">
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                        <img src="./imagenes/cart.svg" alt="carrito">
+                      </div>
+                   </div>
+                 </div>
+          </div>
+          <div class="col-lg-4 col-12">
+                <div class="card ml-1 mb-1">
+                   <img src="imagenes/cachafaz260.jpg" class="card-img-top img-fluid" alt="cachafaz">
+                   <div class="card-body">
+                      <h4 class="card-title"><strong>Alfajor Cachafaz 50g</strong></h4>
+                      <p class="card-text">$50</p>
+                      <p class="card-text"><small class="text-muted">Envío gratis.</small></p>
+                      <div class="btns">
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                        <img src="./imagenes/cart.svg" alt="carrito">
+                      </div>
+                   </div>
+                 </div>
+          </div>
+          <div class="col-lg-4 col-12">
+                <div class="card ml-1 mb-1">
+                   <img src="imagenes/tita260.jpg" class="card-img-top img-fluid" alt="tita">
+                   <div class="card-body">
+                      <h4 class="card-title"><strong>Tita Arcor 35g</strong></h4>
+                      <p class="card-text">$45</p>
+                      <p class="card-text"><small class="text-muted">Envío gratis.</small></p>
+                      <div class="btns">
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                        <img src="./imagenes/cart.svg" alt="carrito">
+                      </div>
+                   </div>
+                 </div>
+          </div>
+          <div class="col-lg-4 col-12">
+                <div class="card ml-1 mb-1">
+                   <img src="imagenes/colonial260.jpg" class="card-img-top img-fluid" alt="colonial">
+                   <div class="card-body">
+                      <h4 class="card-title"><strong>Dulce de Leche "La Serenisima" Colonial 400g</strong></h4>
+                      <p class="card-text">$50</p>
+                      <p class="card-text"><small class="text-muted">Envío gratis.</small></p>
+                      <div class="btns">
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                        <img src="./imagenes/cart.svg" alt="carrito">
+                      </div>
+                   </div>
+                 </div>
+          </div>
+          <div class="col-lg-4 col-12">
+                <div class="card ml-1 mb-1">
+                   <img src="imagenes/jorgitos260.jpg" class="card-img-top img-fluid" alt="jorgitos">
+                   <div class="card-body">
+                      <h4 class="card-title"><strong>Mini-alfajores Jorgito Chocolate x6u</strong></h4>
+                      <p class="card-text">$80</p>
+                      <p class="card-text"><small class="text-muted">Envío gratis.</small></p>
+                      <div class="btns">
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                        <img src="./imagenes/cart.svg" alt="carrito">
+                      </div>
+                   </div>
+                 </div>
+          </div>
+          <div class="col-lg-4 col-12">
+                <div class="card ml-1 mb-1">
+                   <img src="imagenes/mantecol260.jpg" class="card-img-top img-fluid" alt="DL">
+                   <div class="card-body">
+                      <h4 class="card-title"><strong>Alfajor Cachafaz Maicena 35g</strong></h4>
+                      <p class="card-text">$50</p>
+                      <p class="card-text"><small class="text-muted">Envío gratis.</small></p>
+                      <div class="btns">
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                        <img src="./imagenes/cart.svg" alt="carrito">
+                      </div>
+                   </div>
+                 </div>
+          </div>
+          <div class="col-lg-4 col-12">
+                <div class="card ml-1 mb-1">
+                   <img src="imagenes/tranquera260.jpg" class="card-img-top img-fluid" alt="latranquera">
+                   <div class="card-body">
+                      <h4 class="card-title"><strong>Yerba Mate La Tranquera 500</strong>g</h4>
+                      <p class="card-text">$150</p>
+                      <p class="card-text"><small class="text-muted">Envío gratis.</small></p>
+                      <div class="btns">
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                        <img src="./imagenes/cart.svg" alt="carrito">
+                      </div>
+                   </div>
+                 </div>
+          </div>
+          <div class="col-lg-4 col-12">
+                <div class="card ml-1 mb-1">
+                   <img src="imagenes/terrabusi260.jpg" class="card-img-top img-fluid" alt="terrabusi">
+                   <div class="card-body">
+                      <h4 class="card-title"><strong>Alfajor Triple Terrabusi 55g</strong></h4>
+                      <p class="card-text">$50</p>
+                      <p class="card-text"><small class="text-muted">Envío gratis.</small></p>
+                      <div class="btns">
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                        <img src="./imagenes/cart.svg" alt="carrito">
+                      </div>
+                   </div>
+                 </div>
+          </div>
+          <div class="col-lg-4 col-12">
+                <div class="card ml-1 mb-1">
+                   <img src="imagenes/taragui260.jpg" class="card-img-top img-fluid" alt="taragui">
+                   <div class="card-body">
+                      <h4 class="card-title"><strong>Yerba Mate Taragui 1kg</strong></h4>
+                      <p class="card-text">$150</p>
+                      <p class="card-text"><small class="text-muted">Envío gratis.</small></p>
+                      <div class="btns">
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                        <img src="./imagenes/cart.svg" alt="carrito">
+                      </div>
+                   </div>
+                 </div> 
+          </div>
+        </div>
+        <div class="col-lg-12 col-12">
+          <h3 >Más vendidos</h3>
+        </div>  
+        <div class="vendidos row">
+          <div class="col-lg-4 col-12">
+                <div class="card ml-1 mb-1">
+                   <img src="imagenes/terrabusi260.jpg" class="card-img-top img-fluid" alt="terrabusi">
+                   <div class="card-body">
+                      <h4 class="card-title"><strong>Alfajor Triple Terrabusi 50g</strong></h4>
+                      <p class="card-text">$50</p>
+                      <p class="card-text"><small class="text-muted">Envío gratis.</small></p>
+                      <div class="btns">
+                        <a href="#" class="btn">Comprar</a>
+                        <img src="./imagenes/cart.svg" alt="carrito">
+                      </div>
+                   </div>
+                </div>
+          </div>
+          <div class="col-lg-4 col-12">
+                <div class="card ml-1 mb-1">
+                   <img src="imagenes/union260.jpg" class="card-img-top img-fluid" alt="union">
+                   <div class="card-body">
+                      <h4 class="card-title"><strong>Yerba Mate Unión 500</strong>g</h4>
+                      <p class="card-text">$150</p>
+                      <p class="card-text"><small class="text-muted">Envío gratis.</small></p>
+                      <div class="btns">
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                        <img src="./imagenes/cart.svg" alt="carrito">
+                      </div>
+                   </div>
+                 </div>
+          </div>
+          <div class="col-lg-4 col-12">
+                <div class="card ml-1 mb-1">
+                   <img src="imagenes/tita260.jpg" class="card-img-top img-fluid" alt="tita">
+                   <div class="card-body">
+                      <h4 class="card-title"><strong>Tita Arcor 35g</strong></h4>
+                      <p class="card-text">$45</p>
+                      <p class="card-text"><small class="text-muted">Envío gratis.</small></p>
+                      <div class="btns">
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                        <img src="./imagenes/cart.svg" alt="carrito">
+                      </div>
+                   </div>
+                 </div>
+          </div>
+          <div class="col-lg-4 col-12">
+                <div class="card ml-1 mb-1">
+                   <img src="imagenes/habanitos260.jpg" class="card-img-top img-fluid" alt="habanitos">
+                   <div class="card-body">
+                      <h4 class="card-title"><strong>Habanitos Terrabusi 68g</strong></h4>
+                      <p class="card-text">$50</p>
+                      <p class="card-text"><small class="text-muted">Envío gratis.</small></p>
+                      <div class="btns">
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                        <img src="./imagenes/cart.svg" alt="carrito">
+                      </div>
+                   </div>
+                 </div>
+          </div>
+          <div class="col-lg-4 col-12">
+                <div class="card ml-1 mb-1">
+                   <img src="imagenes/rumba260.jpg" class="card-img-top img-fluid" alt="rumba">
+                   <div class="card-body">
+                      <h4 class="card-title"><strong>Galletitas Rumbas Bagley</strong></h4>
+                      <p class="card-text">$50</p>
+                      <p class="card-text"><small class="text-muted">Envío gratis.</small></p>
+                      <div class="btns">
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                        <img src="./imagenes/cart.svg" alt="carrito">
+                      </div>
+                   </div>
+                 </div>
+          </div>
+          <div class="col-lg-4 col-12">
+                <div class="card ml-1 mb-1">
+                   <img src="imagenes/tranquera260.jpg" class="card-img-top img-fluid" alt="Tranquera">
+                   <div class="card-body">
+                      <h4 class="card-title"><strong>Yerba Mate La Tranquera 500g</strong></h4>
+                      <p class="card-text">$50</p>
+                      <p class="card-text"><small class="text-muted">Envío gratis.</small></p>
+                      <div class="btns">
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                        <img src="./imagenes/cart.svg" alt="carrito">
+                      </div>
+                   </div>
+                 </div>
+          </div>
+          <div class="col-lg-4 col-12">
+                <div class="card ml-1 mb-1">
+                   <img src="imagenes/guaymallen260.jpg" class="card-img-top img-fluid" alt="Guaymallén">
+                   <div class="card-body">
+                      <h4 class="card-title"><strong>Alfajor Guaymallén 35g</strong></h4>
+                      <p class="card-text">$20</p>
+                      <p class="card-text"><small class="text-muted">Envío gratis.</small></p>
+                      <div class="btns">
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                        <img src="./imagenes/cart.svg" alt="carrito">
+                      </div>
+                   </div>
+                 </div>
+          </div>
+          <div class="col-lg-4 col-12">
+                <div class="card ml-1 mb-1">
+                   <img src="imagenes/oreo260.jpg" class="card-img-top img-fluid" alt="oreo">
+                   <div class="card-body">
+                      <h4 class="card-title"><strong>Alfajor Triple Oreo 55g</strong></h4>
+                      <p class="card-text">$50</p>
+                      <p class="card-text"><small class="text-muted">Envío gratis.</small></p>
+                      <div class="btns">
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                        <img src="./imagenes/cart.svg" alt="carrito">
+                      </div>
+                   </div>
+                 </div>
+          </div>
+          <div class="col-lg-4 col-12">
+                <div class="card ml-1 mb-1">
+                   <img src="imagenes/turron260.jpg" class="card-img-top img-fluid" alt="turron">
+                   <div class="card-body">
+                      <h4 class="card-title"><strong>Turron&Mani Arcor 25</strong>g</h4>
+                      <p class="card-text">$20</p>
+                      <p class="card-text"><small class="text-muted">Envío gratis.</small></p>
+                      <div class="btns">
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                        <img src="./imagenes/cart.svg" alt="carrito">
+                      </div>
+                   </div>
+                 </div> 
+          </div> 
+        </div>
+      </div>   
+      <section>
+          <!--h3 class="h3">Nuestros clientes</h3-->
+        <div class="container"></div>
+        <div class="clientes row">
+          <div class="col-lg-4 col-12"> 
+            <div class="card mb-4">
+                <div class="card-title carta">
+                  <img src="./imagenes/pibes.jpg" alt="perfil hombre">
+                  <h4>Javier Molares <br><strong>Cliente</strong></h4>
+                </div>
+                <div class="card-text"> 
+                  <p>"Soy cliente frecuente de enviAR y confío totalmente en su servicio. Agradezco haber conocido la página, me permite volver a conectarme con sabores de mi infancia."</p>
+                </div>
+            </div>  
+          </div>  
+          <div class="col-lg-4 col-12 "> 
+            <div class="card mb-4">
+                <div class="card-title carta">
+                  <img src="./imagenes/pibas.jpg" alt="perfil mujer">
+                  <h4>Paloma Cabrera <br> <strong>Clienta</strong> </h4> 
+                </div>
+                <div class="card-text"> 
+                  <p> "Realicé mi primer pedido en enviAR con un poco de incertidumbre pero llegaron todos los productos en tiempo y forma. Estoy muy contenta con el servicio."</p>
+                </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-12 "> 
+           <div class="card mb-4">
+                <div class="card-title carta">
+                  <img src="./imagenes/pibas.jpg" alt="perfil mujer">
+                  <h4>Marina Disney <br> <strong>Proovedora</strong></h4> 
+                </div>
+                <div class="card-text"> 
+                  <p> "Es un orgullo ser parte de esta sociedad que es enviAR y proveer los productos de mejor calidad en el mercado argentino y tener la oportunidad de llegar a todo el mundo. "</p>
+                </div>
+          </div>
+          </div>
+        </div>   
+    <!--FIN CLIENTES-->
+      </section> 
+    </div>  
+  </div>        
+  <!--SUSCRIBIRSE-->    
+  <div class="suscribe"> 
+        <div class="container-fluid" >
+          <div class="row"> 
+            <div class="col-md-8 col-12">
+              <h4>¡Suscribite al newsletter!</h4>
+            </div>
+            <div class="col-md-4 col-12 form">
+              <form class="form-inline my-2 my-lg-0">
+                  <input class=" input form-control mr-sm-2" type="text" placeholder="Escribí tu email">
+                  <button class="btn" type="submit">Suscribirse</button>
+                </form>
+            </div>   
+          </div>    
+        </div>  
+      </div>  
+
+      <!--FOOTER-->
+  <div class="footer container-fluid">
+    
+      <div class="enviar">
+          <h3>enviAR</h3>
+          <img src="./imagenes/fb.svg" alt="fb">
+          <img src="./imagenes/ig.svg" alt="ig">
+      </div>
+      <div class="navegar">
+          <h3>Navegar</h3>
+          <div>
+            <ul>
+              <li><a href="producto.html">Productos</a></li>
+              <li><a href="envios.html">Envios</a></li>
+              <li><a href="nosotros.html">Nosotros</a></li>
+              <li><a href="contacto.html">Contacto</a></li> 
+              <li><a href="preguntas.html">FAQs</a></li>
+            </ul>
+          </div>
+      </div>
+      <div class="cat">
+          <h3>Categorias</h3>
+          <div>
+            <ul>
+              <li><a href="alfajores.html">Alfajores</a></li>
+              <li><a href="Galletitas.html">Galletitas y snacks
+              </a></li>
+              <li><a href="chocolates.html">Chocolates</a></li>
+              <li><a href="dulces.html">Dulce de leche</a></li>
+              <li><a href="yerba.hmtl">Yerba mate</a></li>
+              <li><a href="te.html">Té</a></li>
+            </ul>
+          </div>  
+      </div>
+      <div class="marcas">
+        <h3>Más vendidas</h3>
+          <ul>
+            <li><a href="">Bagley</a></li>
+            <li><a href="">Terrabusi</a></li>
+            <li><a href="">Havanna</a></li>
+            <li><a href="">Guaymallén</a></li>
+            <li><a href="">Arcor</a></li>
+            <li><a href="">Bonafide</a></li>
+            <li><a href="">Cachafaz</a></li>
+            </ul>
+      </div>  
+      <div class="coder">
+        <h4>Proyecto realizado para CoderHouse marzo 2020
+        </h4>
+        <h4>Terminos y condiciones</h4> 
+        <h4> Privacidad</h4>
+        <img src="./imagenes/visa.svg" alt="visa" class="pagos">
+        <img src="./imagenes/mastercard.svg" alt="Master" class="pagos">
+        <img src="./imagenes/paipal.svg" alt="Paypal" class="pagos">
+      </div>  
+  </div>   
+  <!-- FIREBASE  -->
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/8.3.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/8.3.0/firebase-analytics.js"></script>
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+
+<!-- BOOTSTRAP JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</body>

@@ -1,0 +1,211 @@
+* {
+  font-family: 'catamaran', sans-serif; }
+
+  header h1 {
+    font-weight: 700;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    padding-top: 10px;
+  }
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row nowrap;
+  background-color: #a57cfc;
+  padding-left: 15px;
+  padding-right: 15px; }
+  .logo a {
+    text-decoration: none;
+    color: black; }
+
+.nav {
+  display: grid;
+  grid-template-rows: 30px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: "productos envios nosotros contacto preguntas frecuentes";
+  background-color: #fcff69;
+  padding-left: 10px;
+  padding-right: 10px;
+  justify-content: space-around;
+  align-items: center; }
+  .nav a {
+    text-decoration: none;
+    color: black; }
+
+.container .acordeon {
+  display: none; }
+  .container .acordeon .resp a {
+    color: black; }
+  .container .acordeon button {
+    color: black; }
+.container .aside .categorias {
+  font-size: 14px;
+  font-weight: 300;
+  align-items: center;
+  padding: 5px; }
+  .container .aside .categorias strong {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 900;
+    display: block;
+  margin: 15px 0px;}
+.container .aside a {
+  text-decoration: none;
+  color: black; }
+  .aside2 strong{
+    font-size: 15px;
+    text-transform: uppercase;
+    display: block;
+    margin: 15px 0px;
+    font-weight: 900;
+  }
+  .aside2{
+    padding: 5px;
+  }
+.container .aside2 a {
+  text-decoration: none;
+  color: black; }
+.container .aside2 li {
+  display: block;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 300; }
+.container .main {
+  background-color: #f2f2f2; }
+  .container .main input {
+    margin-right: 100px; }
+  .container .main .parrafos {
+    line-height: 0.5; }
+  .container .main h2 {
+    display: block;
+    text-align: center;
+    margin: 20px 0px;
+    font-size: 25px;
+    font-weight: 700; 
+  text-transform: uppercase;}
+  .container .main p {
+    font-size: 14px;
+    text-align: justify;
+    display: block;
+    padding-left: 30px;
+    padding-right: 100px;  }
+  .container .main button {
+    margin-top: 5px; }
+  .container .main label {
+    margin-top: 50px; }
+
+.suscribe {
+  background-color: #ebd8d8;
+  margin: 30px 0px; }
+  .suscribe h4 {
+    display: block;
+    padding: 10px 10px; }
+  .suscribe .form {
+    display: block;
+    padding: 10px 10px; }
+
+.footer {
+  display: grid;
+  grid-template-areas: "enviar navegar cat marcas" "coder coder coder coder";
+  grid-template-rows: 1fr 35px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-color: #5b535e;
+  padding: 10px 10px; }
+  .footer h3 {
+    font-size: 18px; }
+  .footer .enviar {
+    grid-area: enviar; }
+    .footer .enviar img {
+      height: 40px;
+      width: 40px;
+      margin-right: 10px;
+    cursor: pointer; }
+    .footer .enviar h3 {
+      font-size: 43px;
+      font-weight: 700; }
+  .footer .navegar {
+    grid-area: navegar; }
+    .footer .navegar a {
+      color: black; }
+  .footer .cat {
+    grid-area: cat; }
+    .footer .cat a {
+      color: black; }
+  .footer .marcas {
+    grid-area: marcas; }
+    .footer .marcas a {
+      color: black; }
+  .footer .coder {
+    grid-area: coder; }
+    .footer .coder h4 {
+      display: inline-block;
+      padding: 10px;
+      font-size: 12px;
+      color: black; }
+      .coder img{
+        
+        width: 40px;
+        height: auto;
+      }
+
+@media only screen and (max-width: 600px) {
+  .container .aside {
+    display: none; }
+  .container .aside2 {
+    display: none; }
+  .container .acordeon {
+    grid-area: acordeon;
+    display: block; }
+  .container .main input {
+    margin: 2px;
+    max-width: 550px; }
+  .container .main #nombre {
+    margin: 2px;
+    max-width: 550px; }
+  .container .main .parrafos {
+    line-height: 1; }
+  .container .main h2 {
+    padding: 2px;
+    margin: 2px 2px;
+    letter-spacing: 0.2; }
+  .container .main p {
+    padding: 2px 2px;
+    line-height: 1;
+    margin-left: 5px;
+    margin-right: 15px; }
+  .container .main form {
+    margin: 2px;
+    max-width: 550px; }
+  .container .main .text {
+    width: 100%;
+    max-width: 600px;
+    height: 200px; }
+
+  .suscribe {
+    width: 100%;
+    max-width: 600px; }
+
+  .footer {
+    width: 100%;
+    max-width: 600px;
+    display: grid;
+    grid-template-areas: "otro";
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr; }
+    .footer .enviar h3 {
+      float: left; }
+    .footer .enviar img {
+      float: right;
+      width: 30px;
+      height: 30px; }
+    .footer .navegar {
+      display: none; }
+    .footer .cat {
+      display: none; }
+    .footer .marcas {
+      display: none; }
+    .footer .coder {
+      display: none; } }
